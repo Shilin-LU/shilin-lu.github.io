@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
   <h6 class="m-0 mb-2" style="font-size: 1em;"><a href="https://www.ntu.edu.sg/" class="page-description" target="_blank">Nanyang Technological University</a></h6>
-  <h6 class="m-0 mb-2" style="font-size: 1em;"><a href="mailto:shilin002@e.ntu.edu.sg" class="page-description" target="_blank">E-Mail: shilin002@e.ntu.edu.sg</a></h6>
+  <h6 class="m-0 mb-2" style="font-size: 1em;"><a href="mailto:shilin002@e.ntu.edu.sg" class="page-description" target="_blank">Email: shilin002@e.ntu.edu.sg</a></h6>
 
 profile:
   align: right
