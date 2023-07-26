@@ -21,7 +21,7 @@ social: false  # includes social icons at the bottom of the page
 <br>
 
 
-I am presently a second-year Ph.D. student in Artificial Intelligence at [School of Computer Science Engineering, NTU](https://www.ntu.edu.sg/scse), where I had the privilege of working with Dr. Yanzhu Liu and [Prof. Adams Wai-Kin Kong](https://personal.ntu.edu.sg/AdamsKong/). Prior to this, I earned my Master's degree at [School of Electrical and Electronic Engineering, NTU](https://www.ntu.edu.sg/eee), fortunately advised by Dr. Siyuan Yang and [Prof. Alex ChiChung Kot](https://personal.ntu.edu.sg/eackot/index.html). I attained my Bachelor's degree at [Shandong University](https://enie.wh.sdu.edu.cn/) under the excellent guidance and mentorship of [Prof. Chengyou Wang](https://scholar.google.com/citations?user=ESsx9WUAAAAJ&hl=zh-CN) who sets the foundation for my future research pursuits.
+I am presently a second-year Ph.D. student in Artificial Intelligence at [School of Computer Science & Engineering, NTU](https://www.ntu.edu.sg/scse), where I had the privilege of working with Dr. Yanzhu Liu and [Prof. Adams Wai-Kin Kong](https://personal.ntu.edu.sg/AdamsKong/). Prior to this, I earned my Master's degree at [School of Electrical & Electronic Engineering, NTU](https://www.ntu.edu.sg/eee), fortunately advised by Dr. Siyuan Yang and [Prof. Alex Chichung Kot](https://personal.ntu.edu.sg/eackot/index.html). I attained my Bachelor's degree at [Shandong University](https://enie.wh.sdu.edu.cn/) under the excellent guidance and mentorship of [Prof. Chengyou Wang](https://scholar.google.com/citations?user=ESsx9WUAAAAJ&hl=zh-CN) who sets the foundation for my future research pursuits.
 
 <br>
 

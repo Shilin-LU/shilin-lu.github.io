@@ -38,7 +38,7 @@
     {
       "institution": "Technical University of Munich",
       "url": "https://www.tum.de/en/",
-      "area": "Communication Engineering",
+      "area": "",
       "studyType": "Visiting Student",
       "startDate": "2019-07",
       "endDate": "2019-08",
@@ -58,7 +58,14 @@
       ]
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    }
+  ],
   "certificates": [],
   "publications": [],
   "skills": [],
@@ -69,7 +76,7 @@
     },
     {
       "language": "English",
-      "fluency": "Intermediate"
+      "fluency": "Intermediate (IELTS 6.5)"
     }
   ],
   "interests": [],
