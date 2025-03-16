@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper is accepted by ICCV 2023 :smile:
+[TF-ICON](https://arxiv.org/abs/2307.12493) is accepted by ICCV 2023.

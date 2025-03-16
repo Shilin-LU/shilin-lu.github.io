@@ -3,10 +3,8 @@
     "name": "Shilin Lu",
     "label": "Ph.D. Student",
     "image": "",
-    "email": "shilin002@e.ntu.edu.sg",
     "phone": "",
     "url": "https://shilin-lu.github.io/",
-    "summary": "Academic Rubbish Creator",
     "location": "",
     "profiles": []
   },
@@ -16,7 +14,6 @@
     {
       "institution": "Nanyang Technological University",
       "url": "https://www.ntu.edu.sg/",
-      "area": "Artificial Intelligence",
       "studyType": "Ph.D.",
       "startDate": "2022-08-08",
       "endDate": "",
@@ -27,11 +24,9 @@
     {
       "institution": "Nanyang Technological University",
       "url": "https://www.ntu.edu.sg/",
-      "area": "Communication Engineering",
       "studyType": "M.S.",
       "startDate": "2021-08-08",
       "endDate": "2022-05-31",
-      "score": "GPA: 4.88/5.00",
       "courses": [
       ]
     },
@@ -40,7 +35,7 @@
       "url": "https://www.tum.de/en/",
       "area": "",
       "studyType": "Visiting Student",
-      "startDate": "2019-07",
+      "startDate": "2019-06",
       "endDate": "2019-08",
       "score": "",
       "courses": [
@@ -49,36 +44,18 @@
     {
       "institution": "Shandong University",
       "url": "https://enie.wh.sdu.edu.cn/",
-      "area": "Communication Engineering",
       "studyType": "B.Eng.",
       "startDate": "2017-09-01",
       "endDate": "2021-06-31",
-      "score": "GPA: 88.53/100",
       "courses": [
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
+  "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Intermediate (IELTS 6.5)"
-    }
-  ],
+  "languages": [],
   "interests": [],
   "references": [],
   "projects": []
