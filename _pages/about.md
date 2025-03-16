@@ -8,7 +8,7 @@ permalink: /
 
 profile:
   align: right
-  image: profile3.jpg
+  image: profile5.jpg
   image_circular: true # crops the image to make it circular
   address: >
 
