@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[MACE](https://arxiv.org/abs/2403.06135) is accepted by CVPR 2024.
+One paper is accepted by CVPR 2024.

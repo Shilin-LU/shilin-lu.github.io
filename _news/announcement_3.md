@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[VINE](https://arxiv.org/abs/2410.18775) is accepted by ICLR 2025.
+One paper is accepted by ICLR 2025.
