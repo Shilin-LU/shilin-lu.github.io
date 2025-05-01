@@ -109,6 +109,12 @@
 
         </div>
 
+        {% if entry.equal_contrib %}
+          <div class="equal-contrib" style="font-style: normal; margin-top: 0px;">
+            {{ entry.equal_contrib }}
+          </div>
+        {% endif %}
+
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
