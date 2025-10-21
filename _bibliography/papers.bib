@@ -60,6 +60,21 @@
   abbr={ICLR 2025},
 }
 
+
+@article{li2025set,
+  title={Set You Straight: Auto-Steering Denoising Trajectories to Sidestep Unwanted Concepts},
+  author={Li*, Leyang and Lu*, Shilin and Ren, Yan and Kong, Adams Wai-Kin},
+  equal_contrib = {(*: Equal Contribution)},
+  journal={ACM International Conference on Multimedia <b style="font-style: normal;">(ACMMM)</b>},
+  year={2025},
+  arxiv={2504.12782},
+  abstract={Ensuring the ethical deployment of text-to-image models requires effective techniques to prevent the generation of harmful or inappropriate content. While concept erasure methods offer a promising solution, existing finetuning-based approaches suffer from notable limitations. Anchor-free methods risk disrupting sampling trajectories, leading to visual artifacts, while anchor-based methods rely on the heuristic selection of anchor concepts. To overcome these shortcomings, we introduce a finetuning framework, dubbed ANT, which Automatically guides deNoising Trajectories to avoid unwanted concepts. ANT is built on a key insight: reversing the condition direction of classifier-free guidance during mid-to-late denoising stages enables precise content modification without sacrificing early-stage structural integrity. This inspires a trajectory-aware objective that preserves the integrity of the early-stage score function field, which steers samples toward the natural image manifold, without relying on heuristic anchor concept selection. For single-concept erasure, we propose an augmentation-enhanced weight saliency map to precisely identify the critical parameters that most significantly contribute to the unwanted concept, enabling more thorough and efficient erasure. For multi-concept erasure, our objective function offers a versatile plug-and-play solution that significantly boosts performance. Extensive experiments demonstrate that ANT achieves state-of-the-art results in both single and multi-concept erasure, delivering high-quality, safe outputs without compromising the generative fidelity. Code is available at https://github.com/lileyang1210/ANT},
+  selected={true},
+  code={https://github.com/lileyang1210/ANT},
+  preview={ant.png},
+  abbr={ACMMM 2025},
+}
+
 @article{gao2024eraseanything,
   title={EraseAnything: Enabling Concept Erasure in Rectified Flow Transformers},
   author={Gao, Daiheng and Lu, Shilin and Walters, Shaw and Zhou, Wenbo and Chu, Jiaming and Zhang, Jie and Zhang, Bang and Jia, Mengxi and Zhao, Jian and Fan, Zhaoxin and Zhang, Weiming},
@@ -86,6 +101,44 @@
   abbr={Preprint},
 }
 
+@article{lu2025does,
+  title={Does FLUX Already Know How to Perform Physically Plausible Image Composition?},
+  author={Lu*, Shilin and Lian*, Zhuming and Zhou, Zihan and Zhang, Shaocong and Zhao, Chen and Kong, Adams Wai-Kin},
+  journal={<span style="font-style: normal;">Preprint</span>},
+  equal_contrib = {(*: Equal Contribution)},
+  year={2025},
+  selected={true},
+  preview={doesflux.png},
+  arxiv={2509.21278},
+  abstract={Image composition aims to seamlessly insert a user-specified object into a new scene, but existing models struggle with complex lighting (e.g., accurate shadows, water reflections) and diverse, high-resolution inputs. Modern text-to-image diffusion models (e.g., SD3.5, FLUX) already encode essential physical and resolution priors, yet lack a framework to unleash them without resorting to latent inversion, which often locks object poses into contextually inappropriate orientations, or brittle attention surgery. We propose SHINE, a training-free framework for Seamless, High-fidelity Insertion with Neutralized Errors. SHINE introduces manifold-steered anchor loss, leveraging pretrained customization adapters (e.g., IP-Adapter) to guide latents for faithful subject representation while preserving background integrity. Degradation-suppression guidance and adaptive background blending are proposed to further eliminate low-quality outputs and visible seams. To address the lack of rigorous benchmarks, we introduce ComplexCompo, featuring diverse resolutions and challenging conditions such as low lighting, strong illumination, intricate shadows, and reflective surfaces. Experiments on ComplexCompo and DreamEditBench show state-of-the-art performance on standard metrics (e.g., DINOv2) and human-aligned scores (e.g., DreamSim, ImageReward, VisionReward). Code and benchmark will be publicly available upon publication.},
+  abbr={Preprint},
+}
+
+@article{zhou2025dragflow,
+  title={DragFlow: Unleashing DiT Priors with Region Based Supervision for Drag Editing},
+  author={Zhou*, Zihan and Lu*, Shilin and Leng, Shuli and Zhang, Shaocong and Lian, Zhuming and Yu, Xinlei and Kong, Adams Wai-Kin},
+  journal={<span style="font-style: normal;">Preprint</span>},
+  equal_contrib = {(*: Equal Contribution)},
+  year={2025},
+  selected={true},
+  preview={dragflow.png},
+  arxiv={2510.02253},
+  abstract={Drag-based image editing has long suffered from distortions in the target region, largely because the priors of earlier base models, Stable Diffusion, are insufficient to project optimized latents back onto the natural image manifold. With the shift from UNet-based DDPMs to more scalable DiT with flow matching (e.g., SD3.5, FLUX), generative priors have become significantly stronger, enabling advances across diverse editing tasks. However, drag-based editing has yet to benefit from these stronger priors. This work proposes the first framework to effectively harness FLUX's rich prior for drag-based editing, dubbed DragFlow, achieving substantial gains over baselines. We first show that directly applying point-based drag editing to DiTs performs poorly: unlike the highly compressed features of UNets, DiT features are insufficiently structured to provide reliable guidance for point-wise motion supervision. To overcome this limitation, DragFlow introduces a region-based editing paradigm, where affine transformations enable richer and more consistent feature supervision. Additionally, we integrate pretrained open-domain personalization adapters (e.g., IP-Adapter) to enhance subject consistency, while preserving background fidelity through gradient mask-based hard constraints. Multimodal large language models (MLLMs) are further employed to resolve task ambiguities. For evaluation, we curate a novel Region-based Dragging benchmark (ReD Bench) featuring region-level dragging instructions. Extensive experiments on DragBench-DR and ReD Bench show that DragFlow surpasses both point-based and region-based baselines, setting a new state-of-the-art in drag-based image editing. Code and datasets will be publicly available upon publication.},
+  abbr={Preprint},
+}
+
+@article{gao2025revoking,
+  title={Revoking Amnesia: RL-based Trajectory Optimization to Resurrect Erased Concepts in Diffusion Models},
+  author={Gao, Daiheng and Jiang, Nanxiang and Zhang, Andi and Lu, Shilin and Tang, Yufei and Zhou, Wenbo and Zhang, Weiming and Fan, Zhaoxin},
+  journal={<span style="font-style: normal;">Preprint</span>},
+  year={2025},
+  selected={true},
+  preview={revoking.png},
+  arxiv={2510.03302},
+  abstract={Concept erasure techniques have been widely deployed in T2I diffusion models to prevent inappropriate content generation for safety and copyright considerations. However, as models evolve to next-generation architectures like Flux, established erasure methods (\textit{e.g.}, ESD, UCE, AC) exhibit degraded effectiveness, raising questions about their true mechanisms. Through systematic analysis, we reveal that concept erasure creates only an illusion of ``amnesia": rather than genuine forgetting, these methods bias sampling trajectories away from target concepts, making the erasure fundamentally reversible. This insight motivates the need to distinguish superficial safety from genuine concept removal. In this work, we propose \textbf{RevAm} (\underline{Rev}oking \underline{Am}nesia), an RL-based trajectory optimization framework that resurrects erased concepts by dynamically steering the denoising process without modifying model weights. By adapting Group Relative Policy Optimization (GRPO) to diffusion models, RevAm explores diverse recovery trajectories through trajectory-level rewards, overcoming local optima that limit existing methods. Extensive experiments demonstrate that RevAm achieves superior concept resurrection fidelity while reducing computational time by 10×, exposing critical vulnerabilities in current safety mechanisms and underscoring the need for more robust erasure techniques beyond trajectory manipulation.},
+  abbr={Preprint},
+}
+
 @article{ren2025all,
   title={All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting},
   author={Ren, Yan and Lu, Shilin and Kong, Adams Wai-Kin},
@@ -97,18 +150,4 @@
   code={https://github.com/RY-Paper/KeySS},
   abstract={Recent advances in 3D Gaussian Splatting (3DGS) have revolutionized scene reconstruction, opening new possibilities for 3D steganography by hiding 3D secrets within 3D covers. The key challenge in steganography is ensuring imperceptibility while maintaining high-fidelity reconstruction. However, existing methods often suffer from detectability risks and utilize only suboptimal 3DGS features, limiting their full potential. We propose a novel end-to-end key-secured 3D steganography framework (KeySS) that jointly optimizes a 3DGS model and a key-secured decoder for secret reconstruction. Our approach reveals that Gaussian features contribute unequally to secret hiding. The framework incorporates a key-controllable mechanism enabling multi-secret hiding and unauthorized access prevention, while systematically exploring optimal feature update to balance fidelity and security. To rigorously evaluate steganographic imperceptibility beyond conventional 2D metrics, we introduce 3D-Sinkhorn distance analysis, which quantifies distributional differences between original and steganographic Gaussian parameters in the representation space. Extensive experiments demonstrate that our method achieves state-of-the-art performance in both cover and secret reconstruction while maintaining high security levels, advancing the field of 3D steganography.},
   abbr={Preprint},
-}
-
-@article{li2025set,
-  title={Set You Straight: Auto-Steering Denoising Trajectories to Sidestep Unwanted Concepts},
-  author={Li*, Leyang and Lu*, Shilin and Ren, Yan and Kong, Adams Wai-Kin},
-  equal_contrib = {(*: Equal Contribution)},
-  journal={ACM International Conference on Multimedia <b style="font-style: normal;">(ACMMM)</b>},
-  year={2025},
-  arxiv={2504.12782},
-  abstract={Ensuring the ethical deployment of text-to-image models requires effective techniques to prevent the generation of harmful or inappropriate content. While concept erasure methods offer a promising solution, existing finetuning-based approaches suffer from notable limitations. Anchor-free methods risk disrupting sampling trajectories, leading to visual artifacts, while anchor-based methods rely on the heuristic selection of anchor concepts. To overcome these shortcomings, we introduce a finetuning framework, dubbed ANT, which Automatically guides deNoising Trajectories to avoid unwanted concepts. ANT is built on a key insight: reversing the condition direction of classifier-free guidance during mid-to-late denoising stages enables precise content modification without sacrificing early-stage structural integrity. This inspires a trajectory-aware objective that preserves the integrity of the early-stage score function field, which steers samples toward the natural image manifold, without relying on heuristic anchor concept selection. For single-concept erasure, we propose an augmentation-enhanced weight saliency map to precisely identify the critical parameters that most significantly contribute to the unwanted concept, enabling more thorough and efficient erasure. For multi-concept erasure, our objective function offers a versatile plug-and-play solution that significantly boosts performance. Extensive experiments demonstrate that ANT achieves state-of-the-art results in both single and multi-concept erasure, delivering high-quality, safe outputs without compromising the generative fidelity. Code is available at https://github.com/lileyang1210/ANT},
-  selected={true},
-  code={https://github.com/lileyang1210/ANT},
-  preview={ant.png},
-  abbr={ACMMM 2025},
 }
