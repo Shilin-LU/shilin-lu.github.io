@@ -24,11 +24,11 @@ I am a third-year Ph.D. student at the [College of Computing and Data Science](h
 Prior to this, I earned my Master's degree at [School of Electrical and Electronic Engineering, NTU](https://www.ntu.edu.sg/eee), under the guidance of [Dr. Siyuan Yang](https://scholar.google.com/citations?user=lzLsF2MAAAAJ&hl) and [Prof. Alex Chichung Kot](https://personal.ntu.edu.sg/eackot/). I completed my Bachelor's degree at [Shandong University (SDU)](https://www.en.sdu.edu.cn/index.htm), where I was fortunate to be mentored by [Prof. Chengyou Wang](https://www.scholat.com/wangchengyou.en), whose meticulous and dedicated guidance laid the foundation for my future research endeavors.
 
 ##### **Research Interests**
-In the past, my work focused on guiding generative models through test-time interventions or fine-tuning to expand or reshape their capabilities. With test-time interventions, I explored ways to influence the sampling process so that general text-to-image models could adapt to new tasks (e.g., text-driven image editing, object insertion, drag-based editing, etc.). With fine-tuning and post-training, I focused on adjusting models‘ internal concept representations to ensure that generated outputs better align with our expectations.
+In the past, my work focused on guiding generative models through test-time interventions or fine-tuning to expand or reshape their capabilities. With test-time interventions, I explored ways to influence the sampling process so that general text-to-image models could adapt to new tasks (e.g., text-driven image editing, object insertion, drag-based editing). With fine-tuning, I focused on adjusting models‘ internal concept representations to ensure that generated outputs better align with our expectations.
 
 Now, my interests are extending toward video generation and world models. I am curious about how these models learn, imagine, and reason about dynamic scenes and evolving environments, and how we might guide them with the same clarity and control.
 
-Seen from a distance, all these explorations point toward a shared pursuit: understanding how to shape the abilities and internal representations of generative models so they can create and interpret the worlds we ask of them with greater precision and coherence.
+Taken together, these explorations reflect a shared pursuit: understanding how to shape the abilities and internal representations of generative models so they can create and interpret the worlds we ask of them with greater precision and coherence.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
