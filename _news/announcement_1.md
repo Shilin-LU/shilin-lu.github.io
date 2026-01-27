@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by ICCV 2023.
+One paper was accepted by ICCV 2023.

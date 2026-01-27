@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by ICML 2025.
+One paper was accepted by ICML 2025.
