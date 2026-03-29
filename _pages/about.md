@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---  
 
-I am a third-year Ph.D. student at the [College of Computing and Data Science](https://www.ntu.edu.sg/computing), [Nanyang Technological University (NTU), Singapore](https://www.ntu.edu.sg/computing), where I have the privilege of being supervised by [Dr. Yanzhu Liu](https://research.a-star.edu.sg/researcher/yanzhu-liu/) and [Prof. Adams Wai-Kin Kong](https://personal.ntu.edu.sg/AdamsKong/Index.html). 
+I am a fourth-year Ph.D. student at the [College of Computing and Data Science](https://www.ntu.edu.sg/computing), [Nanyang Technological University (NTU), Singapore](https://www.ntu.edu.sg/computing), where I have the privilege of being supervised by [Dr. Yanzhu Liu](https://research.a-star.edu.sg/researcher/yanzhu-liu/) and [Prof. Adams Wai-Kin Kong](https://personal.ntu.edu.sg/AdamsKong/Index.html). 
 
 Prior to this, I earned my Master's degree at [School of Electrical and Electronic Engineering, NTU](https://www.ntu.edu.sg/eee), under the guidance of [Dr. Siyuan Yang](https://scholar.google.com/citations?user=lzLsF2MAAAAJ&hl) and [Prof. Alex Chichung Kot](https://personal.ntu.edu.sg/eackot/). I completed my Bachelor's degree at [Shandong University (SDU)](https://www.en.sdu.edu.cn/index.htm), where I was fortunate to be mentored by [Prof. Chengyou Wang](https://www.scholat.com/wangchengyou.en), whose meticulous and dedicated guidance laid the foundation for my future research endeavors.
 
