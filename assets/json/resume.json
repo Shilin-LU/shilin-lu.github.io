@@ -9,7 +9,7 @@
     "profiles": []
   },
   "work": [],
-  "volunteer": [],
+
   "education": [
     {
       "institution": "Nanyang Technological University",
@@ -48,6 +48,32 @@
       "startDate": "2017-09-01",
       "endDate": "2021-06-31",
       "courses": [
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "position": "Conference Reviewer",
+      "organization": "",
+      "summary": "",
+      "highlights": [
+        "BMVC 2024, ICLR 2025, ICCV 2025, ACMMM 2025, NeurIPS 2025, ICLR 2026, CVPR 2026, ICML 2026, ECCV 2026"
+      ]
+    },
+    {
+      "position": "Journal Reviewer",
+      "organization": "",
+      "summary": "",
+      "highlights": [
+        "TPAMI, IJCV, TIP, TVCG, TMM, TCSVT"
+      ]
+    },
+    {
+      "position": "Workshop Reviewer",
+      "organization": "",
+      "summary": "",
+      "highlights": [
+        "ICLR 2025 Workshop on GenAI Watermarking"
       ]
     }
   ],
